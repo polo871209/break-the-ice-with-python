@@ -16,5 +16,5 @@
 
 ## 2. Practices
 
-* **[Question 1-3](https://github.com/polo871209/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%201.md "Question 1-3")**
+* **[Question 1-3](https://github.com/polo871209/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Question 1-3")**
 * 
