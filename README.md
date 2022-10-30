@@ -16,5 +16,4 @@
 
 ## 2. Practices
 
-* **[Question 1-3](https://github.com/polo871209/break-the-ice-with-python/blob/main/md/Question%201-3.md "Question 1-3")**
-* 
+* **[Question 1-10](https://github.com/polo871209/break-the-ice-with-python/blob/main/md/Question%201-3.md "Question 1-10")**

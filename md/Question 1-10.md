@@ -41,7 +41,6 @@ def q2(num):
 
 > **_With a given integral number n, write a program to generate a dictionary that contains (i, i x i) such that is an integral number between 1 and n (both included). and then the program should print the dictionary.Suppose the following input is supplied to the program: 8_**
 > **_Then, the output should be:_**  
----
 
 ```python
 {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
@@ -64,4 +63,4 @@ def q3(num):
         return err
 ```
 
-[**Go to next**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Q4-6")
+[**Go to next**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Q10-20")
