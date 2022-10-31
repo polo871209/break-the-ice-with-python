@@ -10,8 +10,6 @@
 
 ## 100+ Python challenging programming exercises
 
----
-
 ## 1. Problem Template
 
 * ***Question***
@@ -21,6 +19,7 @@
 ## 2. General coding rules
 
 * Intentionally remove try/except blocks, tests to make code cleaner
+* Write as function or class
 * As many solution as possible
   
 ## 3. Practices
