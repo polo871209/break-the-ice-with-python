@@ -55,12 +55,7 @@ print(q2(10))
 
 ## Question 3
 
-> **_With a given integral number n, write a program to generate a dictionary that contains (i, i x i) such that is an integral number between 1 and n (both included). and then the program should print the dictionary.Suppose the following input is supplied to the program: 8_**
-> **_Then, the output should be:_**  
-
-```python
-{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
-```
+> **_With a given integral number n, write a program to generate a dictionary that contains (i, i x i) such that is an integral number between 1 and n (both included). and then the program should print the dictionary._**
 
 ---
 My Solution
@@ -88,7 +83,7 @@ print(q3(10))
 
 ## Question 4
 
-> **_Write a program which accepts a sequence of comma-separated numbers from console and generate a list and a tuple which contains every number._**  
+> **_Write a program which accepts a sequence of comma-separated string from console and generate a list and a tuple which contains every string._**  
 
 ---
 My Solution
@@ -104,8 +99,8 @@ Result
 
 ```python
 print(q4())
-34,67,55,33,12,98
-(['34', '67', '55', '33', '12', '98'], ('34', '67', '55', '33', '12', '98'))
+123,abc,7732,sada 
+(['123', 'abc', '7732', 'sada'], ('123', 'abc', '7732', 'sada'))
 ```
 
 ## Question 5

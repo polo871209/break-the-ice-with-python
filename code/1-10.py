@@ -41,7 +41,7 @@ def q3(num):
 def q4():
     list = input().split(',')
     tupl = tuple(list)
-    return list, tuple
+    return list, tupl
 
 
 class q5():
@@ -67,5 +67,3 @@ def q6():
         return result
     except ValueError as err:
         return err
-
-print(q6())
