@@ -5,7 +5,7 @@
 > **_Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,
 > between 2000 and 3200 (both included).The numbers obtained should be printed in a comma-separated sequence on a single line._**  
 ---
-My Solution*
+My Solution
 
 ```python
 def q1():
@@ -14,6 +14,13 @@ def q1():
         if i % 7 == 0 and i % 5 != 0:
             l.append(i)
     return l
+```
+
+Result
+
+```python
+print(q1())
+[2016, 2023, 2037, 2044, 2051, 2058, 2072, 2079, 2086, 2093, 2107, 2114, 2121, 2128, 2142, 2149, 2156, 2163, 2177, 2184, 2191, 2198, 2212, 2219, 2226, 2233, 2247, 2254, 2261, 2268, 2282, 2289, 2296, 2303, 2317, 2324, 2331, 2338, 2352, 2359, 2366, 2373, 2387, 2394, 2401, 2408, 2422, 2429, 2436, 2443, 2457, 2464, 2471, 2478, 2492, 2499, 2506, 2513, 2527, 2534, 2541, 2548, 2562, 2569, 2576, 2583, 2597, 2604, 2611, 2618, 2632, 2639, 2646, 2653, 2667, 2674, 2681, 2688, 2702, 2709, 2716, 2723, 2737, 2744, 2751, 2758, 2772, 2779, 2786, 2793, 2807, 2814, 2821, 2828, 2842, 2849, 2856, 2863, 2877, 2884, 2891, 2898, 2912, 2919, 2926, 2933, 2947, 2954, 2961, 2968, 2982, 2989, 2996, 3003, 3017, 3024, 3031, 3038, 3052, 3059, 3066, 3073, 3087, 3094, 3101, 3108, 3122, 3129, 3136, 3143, 3157, 3164, 3171, 3178, 3192, 3199]
 ```
 
 ## Question 2
@@ -35,6 +42,15 @@ def q2(num):
         return sum
     except ValueError as err:
         return err
+```
+
+Result
+
+```python
+print(q2(8))
+40320
+print(q2(10))
+3628800
 ```
 
 ## Question 3
@@ -61,6 +77,99 @@ def q3(num):
         return d
     except ValueError as err:
         return err
+```
+
+Result
+
+```python
+print(q3(10))
+{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100}
+```
+
+## Question 4
+
+> **_Write a program which accepts a sequence of comma-separated numbers from console and generate a list and a tuple which contains every number._**  
+
+---
+My Solution
+
+```python
+def q4():
+    list = input().split(',')
+    tupl = tuple(list)
+    return list, tupl
+```
+
+Result
+
+```python
+print(q4())
+34,67,55,33,12,98
+(['34', '67', '55', '33', '12', '98'], ('34', '67', '55', '33', '12', '98'))
+```
+
+## Question 5
+
+> **_Define a class which has at least two methods:_**
+>
+> - **_getString: to get a string from console input_**
+> - **_printString: to print the string in upper case._**  
+> **_Also please include simple test function to test the class methods._**
+
+---
+My Solution
+
+```python
+class q5():
+    def get_string(self):
+        self.str = input()
+
+    def print_string(self):
+        print(self.str.upper())
+
+hi = q5()
+hi.get_string()
+hi.print_string()
+```
+
+Result
+
+```python
+print(q5())
+1q231
+1Q231
+```
+
+## Question 6
+
+> **_Write a program that calculates and prints the value according to the given formula:_**  
+> **_Q = Square root of [(2xCxD)/H]_**  
+> **_Following are the fixed values of C and H:_**  
+> **_C is 50. H is 30._**  
+> **_D is the variable whose values should be input to your program in a comma-separated sequence._**  
+
+---
+My Solution
+
+```python
+def q6():
+    try:
+        C, H, result = 50, 30, []
+        input_list = [int(x) for x in input().split(',')]
+        for D in input_list:
+            Q = round(((2*C*D)/H)**(1/2))
+            result.append(Q)
+        return result
+    except ValueError as err:
+        return err
+```
+
+Result
+
+```python
+print(q6())
+100,150,180
+[18, 22, 24]
 ```
 
 [**Go to next**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Q10-20")

@@ -1,11 +1,10 @@
-
 # break-the-ice-with-python
 
 ***A journey of 100+ simple yet interesting problems.***
 
 ## Introduction
 
-***The exercise text contents of this repository was collected from GitHub account of [darkprinx](https://github.com/darkprinx/break-the-ice-with-python). These are the exercise that I want to improve myself with basic python skills also get my hand dirty.***
+***The exercise text contents of this repository was collected from GitHub account of [darkprinx](https://github.com/darkprinx/break-the-ice-with-python). These are the exercise that I used to improve myself with basic python skills.***
 
 # 100+ Python challenging programming exercises
 
@@ -13,6 +12,7 @@
 
 * ***Question***
 * ***Solution***
+* ***Result***
 
 ## 2. Practices
 
