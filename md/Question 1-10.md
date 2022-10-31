@@ -32,16 +32,12 @@ My Solution
 
 ```python
 def q2(num):
-    try:
-        num = int(num)
         if num == 0:
             return 0
         sum = 1
         for i in range(1, num+1):
             sum *= i
         return sum
-    except ValueError as err:
-        return err
 ```
 
 Result
@@ -50,6 +46,26 @@ Result
 print(q2(8))
 40320
 print(q2(10))
+3628800
+```
+
+Solution with lambda+reduce
+
+```python
+from functools import reduce
+def q2_2(num):
+        if num == 0:
+            return 0
+        list = [item for item in range(1, num+1)]
+        return reduce(lambda acc, item: acc*item, list, 1)
+```
+
+Result
+
+```python
+print(q2_2(8))
+40320
+print(q2_2(10))
 3628800
 ```
 
@@ -62,16 +78,12 @@ My Solution
 
 ```python
 def q3(num):
-    try:
-        num = int(num)
         if num == 0:
             return {0: 0}
         d = {}
         for i in range(1, num+1):
             d[i] = i*i
         return d
-    except ValueError as err:
-        return err
 ```
 
 Result
@@ -148,15 +160,12 @@ My Solution
 
 ```python
 def q6():
-    try:
         C, H, result = 50, 30, []
         input_list = [int(x) for x in input().split(',')]
         for D in input_list:
             Q = round(((2*C*D)/H)**(1/2))
             result.append(Q)
         return result
-    except ValueError as err:
-        return err
 ```
 
 Result

@@ -1,7 +1,5 @@
-
-
-from genericpath import samestat
-import re
+from functools import reduce
+# Q1
 
 
 def q1():
@@ -12,38 +10,41 @@ def q1():
     return l
 
 
+# Q2
 def q2(num):
-    try:
-        num = int(num)
         if num == 0:
             return 0
         sum = 1
         for i in range(1, num+1):
             sum *= i
         return sum
-    except ValueError as err:
-        return err
 
 
+def q2_2(num):
+        if num == 0:
+            return 0
+        list = [item for item in range(1, num+1)]
+        return reduce(lambda acc, item: acc*item, list, 1)
+
+
+# Q3
 def q3(num):
-    try:
-        num = int(num)
         if num == 0:
             return {0: 0}
         d = {}
         for i in range(1, num+1):
             d[i] = i*i
         return d
-    except ValueError as err:
-        return err
 
 
+# Q4
 def q4():
     list = input().split(',')
     tupl = tuple(list)
     return list, tupl
 
 
+# Q5
 class q5():
     def get_string(self):
         self.str = input()
@@ -57,13 +58,11 @@ class q5():
 # hi.print_string()
 
 
+# Q6
 def q6():
-    try:
         C, H, result = 50, 30, []
         input_list = [int(x) for x in input().split(',')]
         for D in input_list:
             Q = round(((2*C*D)/H)**(1/2))
             result.append(Q)
         return result
-    except ValueError as err:
-        return err
