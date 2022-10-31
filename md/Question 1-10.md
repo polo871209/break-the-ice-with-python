@@ -1,4 +1,4 @@
-# Question 1-3
+# Question 1-10
 
 ## Question 1
 
@@ -49,7 +49,7 @@ print(q2(10))
 3628800
 ```
 
-Solution with lambda+reduce
+My Solution: lambda/reduce
 
 ```python
 from functools import reduce
@@ -175,5 +175,38 @@ print(q6())
 100,150,180
 [18, 22, 24]
 ```
+
+## Question 7
+
+> **_Write a program which takes 2 digits, X,Y as input and generates a 2-dimensional array. The element value in the i-th row and j-th column of the array should be i _ j.\***  
+> **_Note: i=0,1.., X-1; j=0,1,¡­Y-1. Suppose the following inputs are given to the program: 3,5_**  
+> **_Then, the output of the program should be:_**
+
+```python
+[[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]]
+```
+---
+My Solution
+
+```python
+def q7(x, y):
+    lst = []
+    for i in range(x):
+        temp = []
+        for j in range(y):
+            temp.append(i*j)
+        lst.append(temp)
+    return lst
+```
+
+Result
+
+```python
+print(q7(2,5))
+[[0, 0, 0, 0, 0], [0, 1, 2, 3, 4]]
+print(q7(5,2))
+[[0, 0], [0, 1], [0, 2], [0, 3], [0, 4]]
+```
+
 
 [**Go to next**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Q10-20")

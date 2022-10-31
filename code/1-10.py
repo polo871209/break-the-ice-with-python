@@ -12,29 +12,29 @@ def q1():
 
 # Q2
 def q2(num):
-        if num == 0:
-            return 0
-        sum = 1
-        for i in range(1, num+1):
-            sum *= i
-        return sum
+    if num == 0:
+        return 0
+    sum = 1
+    for i in range(1, num+1):
+        sum *= i
+    return sum
 
 
 def q2_2(num):
-        if num == 0:
-            return 0
-        list = [item for item in range(1, num+1)]
-        return reduce(lambda acc, item: acc*item, list, 1)
+    if num == 0:
+        return 0
+    list = [item for item in range(1, num+1)]
+    return reduce(lambda acc, item: acc*item, list, 1)
 
 
 # Q3
 def q3(num):
-        if num == 0:
-            return {0: 0}
-        d = {}
-        for i in range(1, num+1):
-            d[i] = i*i
-        return d
+    if num == 0:
+        return {0: 0}
+    d = {}
+    for i in range(1, num+1):
+        d[i] = i*i
+    return d
 
 
 # Q4
@@ -60,9 +60,25 @@ class q5():
 
 # Q6
 def q6():
-        C, H, result = 50, 30, []
-        input_list = [int(x) for x in input().split(',')]
-        for D in input_list:
-            Q = round(((2*C*D)/H)**(1/2))
-            result.append(Q)
-        return result
+    C, H, result = 50, 30, []
+    input_list = [int(x) for x in input().split(',')]
+    for D in input_list:
+        Q = round(((2*C*D)/H)**(1/2))
+        result.append(Q)
+    return result
+
+
+# Q7
+def q7(x, y):
+    lst = []
+    for i in range(x):
+        temp = []
+        for j in range(y):
+            temp.append(i*j)
+        lst.append(temp)
+    return lst
+
+
+# Q8
+def q8(x, y):
+    pass
