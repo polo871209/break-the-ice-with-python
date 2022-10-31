@@ -80,5 +80,12 @@ def q7(x, y):
 
 
 # Q8
-def q8(x, y):
+def q8():
+    lst = [x for x in input().split(',')]
+    lst.sort()
+    return ','.join(lst)
+
+
+# Q9
+def q9():
     pass

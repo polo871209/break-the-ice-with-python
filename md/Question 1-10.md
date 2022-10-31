@@ -208,5 +208,27 @@ print(q7(5,2))
 [[0, 0], [0, 1], [0, 2], [0, 3], [0, 4]]
 ```
 
+## Question 8
+
+> **_Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically._**
+---
+My Solution
+
+```python
+def q8():
+    lst = [x for x in input().split(',')]
+    lst.sort()
+    return ','.join(lst)
+```
+
+Result
+
+```python
+print(q8())
+without,hello,bag,world
+bag,hello,without,world
+```
+
+
 
 [**Go to next**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Q10-20")
