@@ -229,6 +229,46 @@ without,hello,bag,world
 bag,hello,without,world
 ```
 
+## Question 9
 
+> **_Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized._**
 
-[**Go to next**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md "Q10-20")
+---
+My Solution
+
+```python
+def q9():
+    inputs = input()
+    return inputs.upper()
+```
+
+Result
+
+```python
+print(q9())
+hi i am po
+HI I AM PO
+```
+
+## Question 10
+
+> **_Write a program that accepts a sequence of whitespace separated words as input and prints the words after removing all duplicate words and sorting them alphanumerically._**
+
+---
+My Solution
+
+```python
+def q10():
+    inputs = input().split()
+    return ' '.join(sorted(list(set(inputs))))
+```
+
+Result
+
+```python
+print(q10())
+hello world and practice makes perfect and hello world again
+again and hello makes perfect practice world
+```
+
+[**Next: Q11-20**](https://github.com/polo871209/break-the-ice-with-python/blob/main/md/Question%211-20.md "Q11-20")

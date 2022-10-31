@@ -88,4 +88,11 @@ def q8():
 
 # Q9
 def q9():
-    pass
+    inputs = input()
+    return inputs.upper()
+
+
+# Q10
+def q10():
+    inputs = input().split()
+    return ' '.join(sorted(list(set(inputs))))
