@@ -170,5 +170,5 @@ Result
 
 ```
 
-[**Previous: Q21-30**](https://github.com/polo871209/break-the-ice-with-python/blob/main/md/Question%221-30.md "Q21-30")  
+[**Previous: Q21-30**](https://github.com/polo871209/break-the-ice-with-python/blob/main/md/Question%2021-30.md "Q21-30")  
 [**Next: Q41-50**](https://github.com/polo871209/break-the-ice-with-python/blob/main/md/Question%2041-50.md "Q41-50")
