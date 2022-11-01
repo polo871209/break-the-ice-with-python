@@ -49,58 +49,78 @@ print(q12())
 
 ## Question 13
 
-> **__**  
+> **_Write a program that accepts a sentence and calculate the number of letters and digits._**  
 
 ---
 My Solution
 
 ```python
-
+def q13():
+    digits, letters = 0,0
+    for i in input().split():
+        try:
+            int(i)
+            digits += len(i)
+        except:
+            letters += len(i)
+    return digits, letters
 ```
 
 Result
 
 ```python
-
+print(q13())
+asda 123 sad 324213
+(7, 9)
 ```
 
 ## Question 14
 
-> **__**  
+> **_Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters._**  
 
 ---
 My Solution
 
 ```python
-
+def q14():
+    word = input()
+    lower, upper = 0, 0
+    for i in word:
+        lower += i.islower()
+        upper += i.isupper()
+    return lower, upper
 ```
 
 Result
 
 ```python
-
+print(q14())
+hiHI I am Po
+(5, 4)
 ```
 
 ## Question 15
 
-> **__**  
+> **_Write a program that computes the value of a+aa+aaa+aaaa with a given digit as the value of a._**  
 
 ---
 My Solution
 
 ```python
-
+def q15(a):
+    return a+a*11+a*111+a*1111
 ```
 
 Result
 
 ```python
-
+print(q15(9))
+11106
 ```
 
 ## Question 16
 
-> **__**  
+> **_Use a list comprehension to square each odd number in a list. The list is input by a sequence of comma-separated numbers._**  
 
 ---
 My Solution
@@ -182,3 +202,6 @@ Result
 ```python
 
 ```
+
+[**Previous: Q1-10**](https://github.com/polo871209/break-the-ice-with-python/blob/main/md/Question%201-10.md "Q1-10")  
+[**Next: Q21-30**](https://github.com/polo871209/break-the-ice-with-python/blob/main/md/Question%2021-30.md "Q21-30")

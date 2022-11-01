@@ -18,9 +18,34 @@ def q12():
 
 
 # Q13
+def q13():
+    digits, letters = 0, 0
+    for i in input().split():
+        try:
+            int(i)
+            digits += len(i)
+        except:
+            letters += len(i)
+    return digits, letters
+
+
 # Q14
+def q14():
+    word = input()
+    lower, upper = 0, 0
+    for i in word:
+        lower += i.islower()
+        upper += i.isupper()
+    return lower, upper
+
+
 # Q15
+def q15(a):
+    return a+a*11+a*111+a*1111
+
+
 # Q16
+
 # Q17
 # Q18
 # Q19
