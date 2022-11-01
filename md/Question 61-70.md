@@ -1,23 +1,6 @@
-# Question 21-30
+# Question 61-70
 
-## Question 21
-
-> **__**  
-
----
-My Solution
-
-```python
-
-```
-
-Result
-
-```python
-
-```
-
-## Question 22
+## Question 61
 
 > **__**  
 
@@ -34,7 +17,7 @@ Result
 
 ```
 
-## Question 23
+## Question 62
 
 > **__**  
 
@@ -51,7 +34,7 @@ Result
 
 ```
 
-## Question 24
+## Question 63
 
 > **__**  
 
@@ -68,7 +51,7 @@ Result
 
 ```
 
-## Question 25
+## Question 64
 
 > **__**  
 
@@ -85,7 +68,7 @@ Result
 
 ```
 
-## Question 26
+## Question 65
 
 > **__**  
 
@@ -102,7 +85,7 @@ Result
 
 ```
 
-## Question 27
+## Question 66
 
 > **__**  
 
@@ -119,7 +102,7 @@ Result
 
 ```
 
-## Question 28
+## Question 67
 
 > **__**  
 
@@ -136,7 +119,7 @@ Result
 
 ```
 
-## Question 29
+## Question 68
 
 > **__**  
 
@@ -153,7 +136,24 @@ Result
 
 ```
 
-## Question 30
+## Question 69
+
+> **__**  
+
+---
+My Solution
+
+```python
+
+```
+
+Result
+
+```python
+
+```
+
+## Question 70
 
 > **__**  
 
