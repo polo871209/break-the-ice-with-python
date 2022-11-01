@@ -249,4 +249,5 @@ Result
 ```
 
 [**Previous: Q1-10**](https://github.com/polo871209/break-the-ice-with-python/blob/main/md/Question%201-10.md "Q1-10")  
-[**Next: Q21-30**](https://github.com/polo871209/break-the-ice-with-python/blob/main/md/Question%2021-30.md "Q21-30")
+[**Next: Q21-30**](https://github.com/polo871209/break-the-ice-with-python/blob/main/md/Question%2021-30.md "Q21-30")  
+[**Home**](https://github.com/polo871209/break-the-ice-with-python "home")

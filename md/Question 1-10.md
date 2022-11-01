@@ -185,6 +185,7 @@ print(q6())
 ```python
 [[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]]
 ```
+
 ---
 My Solution
 
@@ -271,4 +272,5 @@ hello world and practice makes perfect and hello world again
 again and hello makes perfect practice world
 ```
 
-[**Next: Q11-20**](https://github.com/polo871209/break-the-ice-with-python/blob/main/md/Question%2011-20.md "Q11-20")
+[**Next: Q11-20**](https://github.com/polo871209/break-the-ice-with-python/blob/main/md/Question%2011-20.md "Q11-20")  
+[**Home**](https://github.com/polo871209/break-the-ice-with-python "home")
