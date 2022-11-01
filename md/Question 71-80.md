@@ -169,3 +169,6 @@ Result
 ```python
 
 ```
+
+[**Previous: Q61-70**](https://github.com/polo871209/break-the-ice-with-python/blob/main/md/Question%261-70.md "Q61-70")  
+[**Next: Q81-90**](https://github.com/polo871209/break-the-ice-with-python/blob/main/md/Question%2081-90.md "Q81-90")

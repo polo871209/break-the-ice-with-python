@@ -126,30 +126,75 @@ print(q15(9))
 My Solution
 
 ```python
-
+def q16():
+    lst = []
+    for i in input().split(','):
+        if int(i)%2 != 0:
+            lst.append(str(int(i)**2))
+    return ','.join(lst)
 ```
 
 Result
 
 ```python
-
+print(q16())
+1,2,3,4,5,6,7,8,9
+1,9,25,49,81
 ```
 
 ## Question 17
 
-> **__**  
+> **_Write a program that computes the net amount of a bank account based a transaction log from console input. The transaction log format is shown as following:_**
+
+```python
+D 100
+W 200
+```
+
+- D means deposit while W means withdrawal.
+
+> **_Suppose the following input is supplied to the program:_**
+
+```python
+D 300
+D 300
+W 200
+D 100
+```
+
+> **_Then, the output should be:_**
+
+```python
+500
+```
 
 ---
 My Solution
 
 ```python
-
+def q17():
+    total = 0
+    while True:
+        try:
+            way, num = input().split()
+            if way == 'D':
+                total += int(num)
+            elif way == 'W':
+                total -= int(num)
+        except:
+            break
+    return total
 ```
 
 Result
 
 ```python
+print(q17())
+D 222
+W 111
+D 333
 
+444
 ```
 
 ## Question 18

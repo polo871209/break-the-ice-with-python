@@ -45,8 +45,23 @@ def q15(a):
 
 
 # Q16
+def q16():
+    lst = []
+    for i in input().split(','):
+        if int(i) % 2 != 0:
+            lst.append(str(int(i)**2))
+    return ','.join(lst)
+
 
 # Q17
+def q17():
+    amount = 0
+    for way,amount in input().split():
+        if way == 'D':
+            amount += amount
+        elif way == 'W':
+            amount -= amount
+    return amount
 # Q18
 # Q19
 # Q20

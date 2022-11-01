@@ -1,4 +1,4 @@
-# Question 91-1000
+# Question 91-100
 
 ## Question 91
 
@@ -169,3 +169,5 @@ Result
 ```python
 
 ```
+
+[**Previous: Q81-90**](https://github.com/polo871209/break-the-ice-with-python/blob/main/md/Question%281-90.md "Q81-90")
