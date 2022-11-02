@@ -127,14 +127,14 @@ print(q4())
 My Solution
 
 ```python
-class q5():
+class Q5():
     def get_string(self):
         self.str = input()
 
     def print_string(self):
         print(self.str.upper())
 
-hi = q5()
+hi = Q5()
 hi.get_string()
 hi.print_string()
 ```

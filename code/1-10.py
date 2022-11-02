@@ -45,7 +45,7 @@ def q4():
 
 
 # Q5
-class q5():
+class Q5():
     def get_string(self):
         self.str = input()
 
@@ -53,7 +53,7 @@ class q5():
         print(self.str.upper())
 
 
-# hi = q5()
+# hi = Q5()
 # hi.get_string()
 # hi.print_string()
 

@@ -277,19 +277,28 @@ Json,21,85
 
 ## Question 20
 
-> **__**  
+> **_Define a class with a generator which can iterate the numbers, which are divisible by 7, between a given range 0 and n._**  
 
 ---
 My Solution
 
 ```python
+class Q20():
 
+    def by7(self, n):
+        for i in range(n+1):
+            if i % 7 == 0:
+                yield i
 ```
 
 Result
 
 ```python
-
+test = Q20()
+gen = test.by7(20)
+0
+7
+14
 ```
 
 [**Previous: Q1-10**](https://github.com/polo871209/break-the-ice-with-python/blob/main/md/Question%201-10.md "Q1-10")  

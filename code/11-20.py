@@ -86,12 +86,20 @@ def q19():
     lst = []
     while True:
         input_str = input().split(',')
-        if not input_str[0]:                          
+        if not input_str[0]:
             break
         lst.append(tuple(input_str))
 
-    lst.sort(key= lambda x:(x[0],int(x[1]),int(x[2]))) 
+    lst.sort(key=lambda x: (x[0], int(x[1]), int(x[2])))
     return lst
 
 
 # Q20
+class Q20():
+
+    def by7(self, n):
+        for i in range(n+1):
+            if i % 7 == 0:
+                yield i
+# test = Q20()
+# gen = test.by7(20)
