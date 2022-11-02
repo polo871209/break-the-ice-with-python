@@ -1,3 +1,6 @@
+import re
+
+
 # Q11
 def q11(*args):
     lst = []
@@ -56,12 +59,39 @@ def q16():
 # Q17
 def q17():
     amount = 0
-    for way,amount in input().split():
+    for way, amount in input().split():
         if way == 'D':
             amount += amount
         elif way == 'W':
             amount -= amount
     return amount
+
+
 # Q18
+def q18(*args):
+    pattern = re.compile(
+        r"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$#@])[A-Za-z\d@$!#%*?&]{6,12}$")
+    valid_pass = []
+    for string in args:
+        a = pattern.search(string)
+        if a is None:
+            continue
+        else:
+            valid_pass.append(string)
+    return ','.join(valid_pass)
+
+
 # Q19
+def q19():
+    lst = []
+    while True:
+        input_str = input().split(',')
+        if not input_str[0]:                          
+            break
+        lst.append(tuple(input_str))
+
+    lst.sort(key= lambda x:(x[0],int(x[1]),int(x[2]))) 
+    return lst
+
+
 # Q20
