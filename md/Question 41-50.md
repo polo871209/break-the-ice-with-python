@@ -2,24 +2,26 @@
 
 ## Question 41
 
-> **__**  
+> **_Write a program which can map() to make a list whose elements are square of elements in [1,2,3,4,5,6,7,8,9,10]._**  
 
 ---
 My Solution
 
 ```python
-
+def q41(s):
+    return s**2
 ```
 
 Result
 
 ```python
-
+print(list(map(q41, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])))
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 ```
 
 ## Question 42
 
-> **__**  
+> **_Write a program which can map() and filter() to make a list whose elements are square of even number in [1,2,3,4,5,6,7,8,9,10]._**  
 
 ---
 My Solution
