@@ -177,64 +177,47 @@ Result
 My Solution
 
 ```python
-
-```
-
-Result
-
-```python
-
+#skip while not understand the question
 ```
 
 ## Question 68
 
-> **__**  
+> **_Please generate a random float where the value is between 10 and 100 using Python module._**  
 
 ---
 My Solution
 
 ```python
-
-```
-
-Result
-
-```python
-
+import random
+rand_num = random.uniform(10,100)
+print(rand_num)
 ```
 
 ## Question 69
 
-> **__**  
+> **_Please generate a random float where the value is between 5 and 95 using Python module._**  
 
 ---
 My Solution
 
 ```python
-
+import random
+rand_num = random.uniform(5,95)
+print(rand_num)
 ```
 
-Result
-
-```python
-
-```
 
 ## Question 70
 
-> **__**  
+> **_Please write a program to output a random even number between 0 and 10 inclusive using random module and list comprehension._**  
 
 ---
 My Solution
 
 ```python
-
-```
-
-Result
-
-```python
-
+import random
+resp = [i for i in range(0,11,2)]
+print(random.choice(resp))
 ```
 
 [**Previous: Q51-60**](https://github.com/polo871209/break-the-ice-with-python/blob/main/md/Question%2051-60.md "Q51-60")  

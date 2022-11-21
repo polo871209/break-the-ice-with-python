@@ -1,4 +1,7 @@
 # Q61
+import random
+
+
 def f(n):
     if n < 2:
         return n
@@ -17,11 +20,12 @@ def f(n):
     fibo[n] = f(n-1) + f(n-2)
     return fibo[n]
 
+
 n = int(input())
-fibo = [0]*(n+1) 
-f(n)              
-fibo = [str(i) for i in fibo]   
-ans = ",".join(fibo)   
+fibo = [0]*(n+1)
+f(n)
+fibo = [str(i) for i in fibo]
+ans = ",".join(fibo)
 print(ans)
 
 
@@ -60,7 +64,7 @@ print(','.join(values))
 
 
 # Q65
-data = [2, 4, 5, 6,]
+data = [2, 4, 5, 6, ]
 for i in data:
     assert i % 2 == 0, f'{i} is not an even number'
 
@@ -73,5 +77,15 @@ print(ans)
 
 # Q67
 # Q68
+rand_num = random.uniform(10, 100)
+print(rand_num)
+
+
 # Q69
+rand_num = random.uniform(5, 95)
+print(rand_num)
+
+
 # Q70
+resp = [i for i in range(0, 11, 2)]
+print(random.choice(resp))
